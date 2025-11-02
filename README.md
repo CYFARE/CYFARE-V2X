@@ -1,5 +1,18 @@
-# CYFARE-V2X
-Video2x Wrapper For GNU/Linux
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/CYFARE/CYFARE-2X/main/logo.png" alt="CYFARE-2X Logo">
+</h1>
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/-HellFire-61DAFB?logo=logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+&logoColor=white&style=for-the-badge" alt="Product: HellFire">&nbsp;
+  <img src="https://img.shields.io/badge/-AGPLv3.0-61DAFB?style=for-the-badge" alt="License: AGPLv3.0">&nbsp;
+  <img src="https://img.shields.io/badge/-1.0-61DAFB?style=for-the-badge" alt="Version: 1.0">
+</h2>
+
+*CYFARE-2X* is stable GUI tool for AI-powered video upscaling and stabilizing. It runs on video2x appimage backend. Made for GNU/Linux.
+
+## Downloads
+
+- **Releases**: [Releases](https://github.com/CYFARE/CYFARE-2X/releases/)
 
 ## Dependencies
 
@@ -27,7 +40,10 @@ Why a custom build?
 ## Run!
 
 ```bash
-python v2x.py
+python -m venv venv
+source /venv/bin/activate
+pip install -r requirements.txt
+python c2x.py
 ```
 
 ## Upscaler Backend
