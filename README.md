@@ -10,9 +10,24 @@
 
 *CYFARE-2X* is stable GUI tool for AI-powered video upscaling and stabilizing. It runs on video2x appimage backend. Made for GNU/Linux.
 
+## UI
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/CYFARE/CYFARE-2X/main/gui.png" alt="CYFARE-2X GUI">
+</h1>
+
 ## Downloads
 
 - **Releases**: [Releases](https://github.com/CYFARE/CYFARE-2X/releases/)
+
+## Run!
+
+```bash
+python -m venv venv
+source /venv/bin/activate
+pip install -r requirements.txt
+python c2x.py
+```
 
 ## Dependencies
 
@@ -37,14 +52,7 @@ Why a custom build?
 - Reliability - if you're working on dedicated workloads, each update won't break the pipeline
 - **Guide:** https://github.com/CYFARE/Brain-Notes/blob/main/SysDev/Builds/FFmpeg%20Build%20Guide.md
 
-## Run!
 
-```bash
-python -m venv venv
-source /venv/bin/activate
-pip install -r requirements.txt
-python c2x.py
-```
 
 ## Upscaler Backend
 
